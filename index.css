@@ -1,0 +1,109 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.heading{
+    color: crimson;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+}
+
+.main_body{
+    margin: 15px;
+    padding: 10px;
+}
+
+.menu_btn button{
+    background-color: crimson;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    
+}
+
+.menu_btn {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu_btn button:hover{
+
+    color:crimson ;
+    background-color: white;
+    box-shadow:darkgray 5px 5px 10px;
+    border: none;
+    border-bottom: 2px solid crimson;
+
+}
+
+ .menu_card{
+    margin: 10px;
+    padding: 10px;
+    margin-left: 120px;
+   
+    
+}
+
+
+
+.menu_box{
+    float: left;
+    border: none;
+    margin: 25px;
+    border-radius: 10px;
+    padding: 10px;
+    
+    box-shadow: 5px 5px 10px 0px  black ;
+}
+
+.menu_box h3{
+text-transform: capitalize;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+padding: 5px;
+float: right;
+color: crimson;
+}
+
+.menu_box p .discription{
+  
+    padding: 5px;
+
+}
+
+.menu_box .menu_image{
+    border-top-left-radius: 10px;
+    height:100px ;
+    width: 200px;
+    
+}
+
+.menu_box button{
+
+    background-color: cadetblue;
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.menu_box button:hover{
+    background-color: crimson;
+ }
+
+ .menu_box .priceTag {
+     color: cadetblue ;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+
+    }
+
+
